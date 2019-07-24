@@ -45,8 +45,8 @@ tbody {
   background: rgba($secondary, 0.95);
   border-radius: 8px;
   width: 75%;
-  max-width: 930px;
-  padding: 3em 3em 5%;
+  max-width: 1032px;
+  padding: 3em 24px 5%;
   .archetype-regular & {
     min-height: 500px;
   }
@@ -139,6 +139,9 @@ header.d-header {
   .panel {
     margin-left: auto;
     order: 5;
+  }
+  .wrap {
+    max-width: 1080;
   }
 }
 
