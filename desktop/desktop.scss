@@ -9,10 +9,6 @@ textarea {
   box-shadow: none !important;
 }
 
-img.avatar {
-  border-radius: 4px;
-}
-
 .badge-wrapper {
   font-weight: normal;
 }
@@ -22,7 +18,7 @@ img.avatar {
   background: rgba($header_background, 0.92);
   box-shadow: 0 3px 3px rgba(100, 100, 100, 0.13);
   .panel {
-    padding: 6px 0 0 0;
+    // padding: 6px 0 0 0;
     flex: 0 0 auto;
   }
   button {
@@ -36,6 +32,10 @@ img.avatar {
       margin-left: 20px;
     }
     border-radius: 4px;
+    img.avatar {
+      width: 38px;
+      height: 38px;
+    }
   }
   .icons {
     .unread-private-messages,
