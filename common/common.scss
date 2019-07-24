@@ -6,25 +6,30 @@
   box-shadow: 0 1px $value rgba(black, 0.18);
 }
 
+html {
+  font-family: "Roboto", Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+
 body {
-  background-color: $primary-very-low;
-  @if $no-background-image == "false" {
-    @if $background-image != "default" {
-      // Thanks @tmoko!
-      background-image: url($background-image);
-    } @else {
-      background-image: url($default-background);
-    }
-    // Default background pattern from Toptal Subtle Patterns
-    // ♡ https://www.toptal.com/designers/subtlepatterns/japanese-sayagata/
-    background-attachment: fixed;
-    @if $tile-background == "true" {
-      background-size: auto;
-    } @else {
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  }
+  background-color: $secondary;
+  // @if $no-background-image == "false" {
+  //   @if $background-image != "default" {
+  //     // Thanks @tmoko!
+  //     background-image: url($background-image);
+  //   } @else {
+  //     background-image: url($default-background);
+  //   }
+  //   // Default background pattern from Toptal Subtle Patterns
+  //   // ♡ https://www.toptal.com/designers/subtlepatterns/japanese-sayagata/
+  //   background-attachment: fixed;
+  //   @if $tile-background == "true" {
+  //     background-size: auto;
+  //   } @else {
+  //     background-size: cover;
+  //     background-repeat: no-repeat;
+  //   }
+  // }
 }
 
 tbody {
@@ -32,7 +37,7 @@ tbody {
 }
 
 #main {
-  padding-top: 120px;
+  padding-top: 56px;
   padding-bottom: 120px;
 }
 
