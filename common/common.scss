@@ -54,7 +54,7 @@ tbody {
     padding: 1.5em;
   }
   padding-bottom: 5% !important; //overriding inline style
-  @include box-shadow;
+  // @include box-shadow;
   @media screen and (max-width: 1120px) {
     width: 80%;
   }
