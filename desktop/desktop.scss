@@ -20,6 +20,10 @@ textarea {
   .panel {
     // padding: 6px 0 0 0;
     flex: 0 0 auto;
+    flex-grow: 2;
+    .header-buttons {
+        flex-grow: 2;
+    }
   }
   button {
     &.login-button,
