@@ -361,20 +361,20 @@ span.user-title {
 }
 
 .footer {
-    padding: 8px 16px;
-    margin-top: 32px;
-    text-align: center;
-    .footer-items {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        box-sizing: border-box;
-        .footer-item {
-            padding: 8px;
-            box-sizing: border-box;
-        }
+  padding: 8px 16px;
+  margin-top: 32px;
+  text-align: center;
+  .footer-items {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    .footer-item {
+      padding: 8px;
+      box-sizing: border-box;
     }
+  }
 }
 
 // onebox

@@ -24,6 +24,9 @@ textarea {
     .header-buttons {
         margin-top: 0;
         flex-grow: 2;
+        .custom-header-links-wrapper {
+          flex-grow: 2;
+      }
     }
   }
   button {
@@ -56,7 +59,7 @@ textarea {
   }
   #site-logo.logo-big {
     max-height: 24px !important;
-  }  
+  }
   #site-logo.logo-small {
     border-radius: 50%;
   }
