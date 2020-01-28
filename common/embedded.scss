@@ -64,6 +64,10 @@ article.post {
   }
 }
 
+// don't show logo in embedded iframe
+img.logo {
+  display: none;
+}
 
 footer {
   .button {
@@ -73,10 +77,6 @@ footer {
     border-radius: 4px;
   }
 
-  // don't show tulula logo in embedded iframe
-  img.logo {
-    display: none;
-  }
 }
 
 // Fix for iframe width in ios
