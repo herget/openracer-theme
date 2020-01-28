@@ -2,6 +2,12 @@
 @import "common/foundation/variables";
 @import "common/foundation/mixins";
 
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri:300');
+
+html {
+  font-family: "Hind Siliguri", Helvetica,Arial,sans-serif;
+  font-weight: 300;
+}
 
 aside.onebox {
   // the same shadow we use for event's cover
